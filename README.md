@@ -1,5 +1,5 @@
 HardCoreSite
 ============
-Por favor coordine con el equipo qué archivo está modificando para que todos sepan que no deben tocarlo hasta nuevo aviso.
+Por favor coordine con el equipo en qué archivo está trabajando para evitar duplicidad de labor.
 
 Gracias
