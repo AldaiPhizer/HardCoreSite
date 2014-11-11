@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_games" value="name:Etiqueta;datatype:blob,name:gm_Name;datatype:blob" />
+	<infoitem key="UD_rs_addtype" value="name:ct_TypeNumber;datatype:int,name:ct_TypeDescription;datatype:string" />
+	<infoitem key="UD_rs_server" value="name:sv_Name;datatype:string" />
+</info>

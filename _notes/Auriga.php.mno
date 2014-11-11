@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_games" value="name:gm_Name;datatype:blob,name:gm_Version;datatype:blob,name:gm_DateCreated;datatype:datetime,name:gm_DateCeased;datatype:datetime" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_customers" value="name:cu_Number;datatype:int,name:cu_MainAddress;datatype:string,name:cu_FirstName;datatype:blob,name:cu_SecondName;datatype:blob,name:cu_MiddleName;datatype:blob,name:cu_FirstLastName;datatype:blob,name:cu_SecondLastName;datatype:blob,name:cu_MiddleLastName;datatype:blob,name:cu_DateCreated;datatype:datetime,name:cu_State;datatype:string,name:cu_Gender;datatype:string,name:cu_BirthDate;datatype:date,name:cu_Country;datatype:string,name:cu_City;datatype:int,name:cu_Aka;datatype:string,name:cu_Password;datatype:string" />
+</info>

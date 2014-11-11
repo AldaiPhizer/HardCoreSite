@@ -1,0 +1,1 @@
+<div class="footer">All rights reserved.  Hosted On PurePings.  </div>

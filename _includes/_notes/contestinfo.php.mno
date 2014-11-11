@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_collectables" value="name:cl_Item;datatype:int,name:cl_GameName;datatype:string,name:cl_Name;datatype:string,name:cl_ComName;datatype:string,name:cl_Description;datatype:string,name:cl_BaseValue;datatype:int,name:cl_ExtendedValue;datatype:int,name:cl_BaseRent;datatype:int,name:cl_ExtendedRent;datatype:int,name:cl_IsAdultContent;datatype:string,name:cl_BuySellAllow;datatype:string,name:cl_ContainerType;datatype:string,name:cl_Category;datatype:int,name:cl_ReqLevel;datatype:int,name:cl_Status;datatype:string" />
+	<infoitem key="UD_rs_GamesCollection" value="name:gm_Name;datatype:blob" />
+	<infoitem key="UD_rs_games" value="name:Etiqueta;datatype:blob,name:gm_Name;datatype:blob" />
+</info>

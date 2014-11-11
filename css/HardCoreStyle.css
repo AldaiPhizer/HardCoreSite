@@ -1,0 +1,1782 @@
+@charset "utf-8";
+.mainframe {
+	background-image: url(../images/backgrounds/BackGround_MainFrame.jpg);
+	background-repeat: repeat;
+	padding: 10px;
+	height: 1220px;
+	width: 1255px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border: 5px solid #960;
+	background-color:#960;
+}
+.header {
+	background-image: url(../images/banners/HardCoreLogo_04.jpg);
+	padding: 0px;
+	height: 195px;
+	width: 1250px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	background-position: center top;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	border-top-color: #666;
+	border-right-color: #666;
+	border-bottom-color: #666;
+	border-left-color: #666;
+}
+.menu {
+	background-image: url(../images/backgrounds/scratched_metal_04.jpg);
+	background-repeat: repeat;
+	height: 60px;
+	width: 1260px;
+	padding-top: 2px;
+	margin-top: 3px;
+}
+.initinfo {
+	background-image:url(../images/backgrounds/BackGround_UserInfo.png);
+
+	padding: 1px;
+	height: 60px;
+	width: 1250px;
+	margin-top: 3px;
+	border: 2px solid #000;
+}
+.userinfo {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: right;
+	font-size: medium;
+	color: #CC0;
+	font-style: italic;
+	line-height: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+.leftcolumn {
+	font-family: Arial, Helvetica, sans-serif;
+	
+	font-size: small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	background-image:url(../images/backgrounds/BackGround_LeftColumn.png);
+	color: #CC0;
+	text-decoration: none;
+	height: 850px;
+	width: 100px;
+	margin-top: 2px;
+	border-top-width: 2px;
+	border-right-width: 1px;
+	border-bottom-width: 2px;
+	border-left-width: 3px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+.connusers {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	color: #FC0;
+	text-decoration: none;
+	height: 450px;
+	width: 90px;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-bottom-width: 4px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #F60;
+	border-right-color: #F60;
+	border-bottom-color: #F60;
+	border-left-color: #F60;
+}
+.currtime {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	text-decoration: none;
+	height: 60px;
+	width: 95px;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+	clear: none;
+	float: none;
+	text-align: center;
+	top: 0px;
+	clip: rect(0px,auto,auto,auto);
+}
+.footer {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: small;
+	font-style: italic;
+	font-weight: normal;
+	color: #CCC;
+	text-decoration: none;
+	background-color: #300;
+	text-align: center;
+	padding: 1px;
+	height: 20px;
+	width: 1250px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border: 3px solid #000;
+}
+.products {
+	font-family: "Imprint MT Shadow", "Informal Roman", "High Tower Text";
+	font-size: large;
+	font-style: normal;
+	font-weight: bold;
+	color: #CC0;
+	text-decoration: none;
+	height: 875px;
+	width: 1120px;
+	margin-top: 0px;
+	margin-left: 10px;
+	position: absolute;
+	left: 151px;
+	top: 390px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-color: #003;
+	border-right-color: #003;
+	border-bottom-color: #003;
+	border-left-color: #003;
+}
+
+.pagetitle {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:36px;
+	color:#FC0;
+	font-weight:bold;
+	text-align:center;
+}
+.tableheaders th {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif ;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bolder;
+	color:#600;
+}
+.data {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	color:#FF9;
+	background-image:url(../images/backgrounds/BackGround_Data.jpg)
+/*	background-color: #300;*/
+}
+.drop{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	color:#FF9;
+	background-color:#630;
+	
+/*	background-color: #300;*/
+}
+
+.datalabel {
+	color:#600;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:20px;
+	font-weight:bold;
+
+}
+
+.aurigadata {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	color:#FC3;
+	background-image:url(../images/backgrounds/AurigaData_bkg.png)
+/*	background-color: #300;*/
+}
+.aurigadrop{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	color:#FC3;
+	background-color:#333;
+	
+/*	background-color: #300;*/
+}
+
+.anydata {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	color:#FC3;
+	background-image:url(../images/backgrounds/AnyData_bkg.png)
+/*	background-color: #300;*/
+}
+.anydrop{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	color:#FC3;
+	background-color:#036;
+	
+/*	background-color: #300;*/
+}
+
+.errormessage {
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#C00;
+	
+}
+/********************************************* Botones Sub Menu Comunidad ********************************************/
+.mnumensajes {
+	background-image: url(../images/buttons/mnu_mensajes_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:0px;
+	width: 280px;
+	height: 50px;
+		background-size: 280px 50px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+
+}
+
+.mnumensajes:hover {
+	background-image: url(../images/buttons/mnu_mensajes_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:0px;
+	width: 280px;
+	height: 50px;
+		background-size: 280px 50px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.mnumensajes:active {
+	background-image: url(../images/buttons/mnu_mensajes_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:0px;
+	width: 280px;
+	height: 50px;
+		background-size: 280px 50px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.mnuforo {
+	background-image: url(../images/buttons/mnu_foro_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:0px;
+	width: 280px;
+	height: 50px;
+		background-size: 280px 50px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.mnuforo:hover {
+	background-image: url(../images/buttons/mnu_foro_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:0px;
+	width: 280px;
+	height: 50px;
+		background-size: 280px 50px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.mnuforo:active {
+	background-image: url(../images/buttons/mnu_foro_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:0px;
+	width: 280px;
+	height: 50px;
+		background-size: 280px 50px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.mnuchat {
+	background-image: url(../images/buttons/mnu_chat_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:0px;
+	width: 280px;
+	height: 50px;
+		background-size: 280px 50px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.mnuchat:hover {
+	background-image: url(../images/buttons/mnu_chat_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:0px;
+	width: 280px;
+	height: 50px;
+		background-size: 280px 50px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.mnuchat:active {
+	background-image: url(../images/buttons/mnu_chat_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:0px;
+	width: 280px;
+	height: 50px;
+		background-size: 280px 50px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.mnusoporte {
+	background-image: url(../images/buttons/mnu_soporte_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:0px;
+	width: 280px;
+	height: 50px;
+		background-size: 280px 50px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.mnusoporte:hover {
+	background-image: url(../images/buttons/mnu_soporte_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:0px;
+	width: 280px;
+	height: 50px;
+		background-size: 280px 50px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.mnusoporte:active {
+	background-image: url(../images/buttons/mnu_soporte_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:0px;
+	width: 280px;
+	height: 50px;
+		background-size: 280px 50px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+/********************************************* Botones de Acción - Start ******************************************/
+.botonentrar {
+	background-image: url(../images/buttons/btn_entrar_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 160px;
+	height: 40px;
+		background-size: 160px 40px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonentrar:hover {
+	background-image: url(../images/buttons/btn_entrar_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 160px;
+	height: 40px;
+		background-size: 160px 40px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonentrar:active {
+	background-image: url(../images/buttons/btn_entrar_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+    width: 160px;
+    height: 40px;
+		background-size: 160px 40px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botonverificar {
+	background-image: url(../images/buttons/verificar_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 40px;
+		background-size: 300px 40px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonverificar:hover {
+	background-image: url(../images/buttons/verificar_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 40px;
+		background-size: 300px 40px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonverificar:active {
+	background-image: url(../images/buttons/verificar_click.png);
+	background-color:
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+    width: 300px;
+    height: 40px;
+		background-size: 300px 40px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botonretirar {
+	background-image: url(../images/buttons/btn_retirar_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonretirar:hover {
+	background-image: url(../images/buttons/btn_retirar_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonretirar:active {
+	background-image: url(../images/buttons/btn_retirar_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+    width: 240px;
+    height: 60px;
+		background-size: 240px 60px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+/******************* Botones genéricos - Start ************************************************/
+.botoncrear {
+	background-image: url(../images/buttons/btn_crear_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botoncrear:hover {
+	background-image: url(../images/buttons/btn_crear_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botoncrear:active {
+	background-image: url(../images/buttons/btn_crear_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+    width: 240px;
+    height: 60px;
+		background-size: 240px 60px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botonactualizar {
+	background-image: url(../images/buttons/btn_actualizar_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonactualizar:hover {
+	background-image: url(../images/buttons/btn_actualizar_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonactualizar:active {
+	background-image: url(../images/buttons/btn_actualizar_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botonlimpiar {
+	background-image: url(../images/buttons/btn_limpiar_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonlimpiar:hover {
+	background-image: url(../images/buttons/btn_limpiar_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonlimpiar:active {
+	background-image: url(../images/buttons/btn_limpiar_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botonremover {
+	background-image: url(../images/buttons/btn_remover_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonremover:hover {
+	background-image: url(../images/buttons/btn_remover_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonremover:active {
+	background-image: url(../images/buttons/btn_remover_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botondownload1 {
+	background-image: url(../images/buttons/btn_download1_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botondownload1:hover {
+	background-image: url(../images/buttons/btn_download1_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botondownload1:active {
+	background-image: url(../images/buttons/btn_download1_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+    width: 240px;
+    height: 60px;
+		background-size: 240px 60px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botoninscribir {
+	background-image: url(../images/buttons/btn_inscribir_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botoninscribir:hover {
+	background-image: url(../images/buttons/btn_inscribir_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botoninscribir:active {
+	background-image: url(../images/buttons/btn_inscribir_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+    width: 240px;
+    height: 60px;
+		background-size: 240px 60px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botonenviar {
+	background-image: url(../images/buttons/btn_enviar_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonenviar:hover {
+	background-image: url(../images/buttons/btn_enviar_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonenviar:active {
+	background-image: url(../images/buttons/btn_enviar_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botonresponder {
+	background-image: url(../images/buttons/btn_responder_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonresponder:hover {
+	background-image: url(../images/buttons/btn_responder_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonresponder:active {
+	background-image: url(../images/buttons/btn_responder_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+	width: 240px;
+	height: 60px;
+		background-size: 240px 60px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+/******************* Botones genéricos - End ************************************************/
+.botonintercambia {
+	background-image: url(../images/buttons/btn_intercambia_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 40px;
+	background-size: 300px 40px;
+	
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonintercambia:hover {
+	background-image: url(../images/buttons/btn_intercambia_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 40px;
+		background-size: 300px 40px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonintercambia:active {
+	background-image: url(../images/buttons/btn_intercambia_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+    width: 300px;
+    height: 40px;
+		background-size: 300px 40px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botonmoneyadmin {
+	background-image: url(../images/buttons/btn_dinero_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 40px;
+		background-size: 300px 40px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonmoneyadmin:hover {
+	background-image: url(../images/buttons/btn_dinero_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 40px;
+		background-size: 300px 40px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonmoneyadmin:active {
+	background-image: url(../images/buttons/btn_dinero_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+    width: 300px;
+    height: 40px;
+		background-size: 300px 40px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botoncontactos {
+	background-image: url(../images/buttons/btn_contactos_normal.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 40px;
+		background-size: 300px 40px;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botoncontactos:hover {
+	background-image: url(../images/buttons/btn_contactos_hover.png);
+	background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+	
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 40px;
+		background-size: 300px 40px;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botoncontactos:active {
+	background-image: url(../images/buttons/btn_contactos_click.png);
+    background-position:  0px 0px;
+	border-radius: 10px;
+            -moz-border-radius: 10px;
+            -khtml-border-radius: 10px;
+            -webkit-border-radius: 10px;
+
+    background-repeat: no-repeat;
+	margin-top:3px;
+    width: 300px;
+    height: 40px;
+		background-size: 300px 40px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+/************************* Botones de más y menos - Start ************************************/
+.botonmas {
+	background-image: url(../images/buttons/Plus_Button.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 30px;
+	height: 30px;
+	background-size: 30px auto;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonmas:hover {
+	background-image: url(../images/buttons/Plus_Button_Hover.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 30px;
+	height: 30px;
+	background-size: 30px auto;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonmas:active {
+	background-image: url(../images/buttons/Plus_Button_Clicked.png);
+    background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 30px;
+	height: 30px;
+	background-size: 30px auto;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botonmenos {
+	background-image: url(../images/buttons/Minus_Button.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 30px;
+	height: 30px;
+	background-size: 30px auto;
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonmenos:hover {
+	background-image: url(../images/buttons/Minus_Button_Hover.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 30px;
+	height: 30px;
+	background-size: 30px auto;
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonmenos:active {
+	background-image: url(../images/buttons/Minus_Button_Clicked.png);
+    background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 30px;
+	height: 30px;
+	background-size: 30px auto;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+/************************* Botones de más y menos - End ************************************/
+
+/************************* Botones de convertir dinero - Start ***********************************/
+										/*** Oro ***/
+.botontogold {
+	background-image: url(../images/buttons/btn_togold_normal.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 171px;
+	height: 30px;
+	background-size: 171px 30px;
+
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botontogold:hover {
+	background-image: url(../images/buttons/btn_togold_hover.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 171px;
+	height: 30px;
+	background-size: 171px 30px;
+
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botontogold:active {
+	background-image: url(../images/buttons/btn_togold_click.png);
+    background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 171px;
+	height: 30px;
+	background-size: 171px 30px;
+
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+								/*** Plata ***/
+.botontosilver {
+	background-image: url(../images/buttons/btn_tosilver_normal.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 171px;
+	height: 30px;
+	background-size: 171px 30px;
+
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botontosilver:hover {
+	background-image: url(../images/buttons/btn_tosilver_hover.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 171px;
+	height: 30px;
+	background-size: 171px 30px;
+
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botontosilver:active {
+	background-image: url(../images/buttons/btn_tosilver_click.png);
+    background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 171px;
+	height: 30px;
+	background-size: 171px 30px;
+
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+								/*** Bronce ***/
+.botontobronze {
+	background-image: url(../images/buttons/btn_tobronze_normal.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 171px;
+	height: 30px;
+	background-size: 171px 30px;
+
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botontobronze:hover {
+	background-image: url(../images/buttons/btn_tobronze_hover.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 171px;
+	height: 30px;
+	background-size: 171px 30px;
+
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botontobronze:active {
+	background-image: url(../images/buttons/btn_tobronze_click.png);
+    background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 171px;
+	height: 30px;
+	background-size: 171px 30px;
+
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+					/************ USDollars *********************/
+.botoncobrar {
+	background-image: url(../images/buttons/btn_cobrar_normal.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 171px;
+	height: 30px;
+	background-size: 171px 30px;
+
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botoncobrar:hover {
+	background-image: url(../images/buttons/btn_cobrar_hover.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 171px;
+	height: 30px;
+	background-size: 171px 30px;
+
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botoncobrar:active {
+	background-image: url(../images/buttons/btn_cobrar_click.png);
+    background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 171px;
+	height: 30px;
+	background-size: 171px 30px;
+
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+						/************ Add Gold ****************/
+.botonaddgold {
+	background-image: url(../images/buttons/btn_addgold_normal.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 54px;
+	background-size: 300px 54px;
+
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonaddgold:hover {
+	background-image: url(../images/buttons/btn_addgold_hover.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 54px;
+	background-size: 300px 54px;
+
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonaddgold:active {
+	background-image: url(../images/buttons/btn_addgold_click.png);
+    background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 54px;
+	background-size: 300px 54px;
+
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+						/***************** Pay Forms ****************/
+.botonpayforms {
+	background-image: url(../images/buttons/btn_payforms_normal.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 54px;
+	background-size: 300px 54px;
+
+	border: 0px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.botonpayforms:hover {
+	background-image: url(../images/buttons/btn_payforms_hover.png);
+	background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 54px;
+	background-size: 300px 54px;
+
+	border: 0px;
+	cursor: default;
+	outline: 0;
+}
+
+.botonpayforms:active {
+	background-image: url(../images/buttons/btn_payforms_click.png);
+    background-position:  0px 0px;
+	border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			
+	background-repeat: no-repeat;
+	margin-top:3px;
+	width: 300px;
+	height: 54px;
+	background-size: 300px 54px;
+
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+/************************* Botones de convertir dinero - End ***********************************/
+
+/* SQUARED ONE */
+.squaredOne {
+	width: 28px;
+	height: 28px;
+	background: #fcfff4;
+
+	background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+	margin: 20px auto;
+	-webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+	position: relative;
+}
+
+.squaredOne label {
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 4px;
+	top: 4px;
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+
+	background: -webkit-linear-gradient(top, #222 0%, #45484d 100%);
+	background: -moz-linear-gradient(top, #222 0%, #45484d 100%);
+	background: -o-linear-gradient(top, #222 0%, #45484d 100%);
+	background: -ms-linear-gradient(top, #222 0%, #45484d 100%);
+	background: linear-gradient(top, #222 0%, #45484d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#45484d',GradientType=0 );
+}
+
+.squaredOne label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	background: #00bf00;
+
+	background: -webkit-linear-gradient(top, #00bf00 0%, #009400 100%);
+	background: -moz-linear-gradient(top, #00bf00 0%, #009400 100%);
+	background: -o-linear-gradient(top, #00bf00 0%, #009400 100%);
+	background: -ms-linear-gradient(top, #00bf00 0%, #009400 100%);
+	background: linear-gradient(top, #00bf00 0%, #009400 100%);
+
+	top: 2px;
+	left: 2px;
+
+	-webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+.squaredOne label:hover::after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
+
+.squaredOne input[type=checkbox]:checked + label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
